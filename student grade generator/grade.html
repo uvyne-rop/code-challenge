@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Generator</title>
+    <link rel="stylesheet" href="grade.css">
+</head>
+<body>
+    <h1>Student Grade Generator</h1>
+
+    <div class="container1">
+        <h2>Input Marks</h2>
+        <div>
+            
+            <input id="maths" min="0" max="100" class="marks" placeholder="Mathematics">
+        </div><br>
+        <div>
+            <input id="english" min="0" max="100" class="marks" placeholder="English">
+        </div><br>
+        <div>
+            <input id="physics" min="0" max="100" class="marks" placeholder="Physics">
+        </div><br>
+        <div>
+            <input id="chemistry" min="0" max="100" class="marks" placeholder="Chemistry">
+        </div><br>
+        <div>
+            <input id="biology" min="0" max="100" class="marks" placeholder="Biology">
+        </div><br>
+        <div>
+            <button onclick="submit()">Submit</button>
+        </div>
+    </div>
+
+    <div class="container2">
+        <div>
+            <label>Points:</label>
+            <span id="points">-</span>
+        </div><br>
+        <div>
+            <label>Grade:</label>
+            <span id="grade">-</span>
+        </div><br>
+        <div>
+            <label>Marks:</label>
+            <span id="sum">-</span>
+        </div>
+    </div>
+
+    <script src="grade.js"></script>
+</body>
+</html>
